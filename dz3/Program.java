@@ -14,7 +14,6 @@ public class Program {
 
             Record newRecord = check.checkData();
             if (newRecord != null) {
-                //System.out.println(newRecord);
                 save.saveTxt(newRecord);
             }
         System.out.println("_________\nХотите ввести ещё одну запись?");

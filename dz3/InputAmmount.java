@@ -1,22 +1,12 @@
 package dz3;
-
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class InputAmmount {
     private String sample = "";
-    //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-    //private Scanner input = new Scanner(System.in);
     private int numberOfFields = 6;
-    private String[] pattern = new String[numberOfFields];
-
 
     public void get() throws IOException {
         System.out.println("Введите данные в формате:\n<Фамилия> <Имя> <Отчество> <дата_рождения> <номер_телефона> <пол>");
-        //sample = input.nextLine();
-        //sample = reader.readLine();
         sample = System.console().readLine();
     }
 
